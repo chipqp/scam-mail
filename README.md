@@ -1,1 +1,1 @@
-scam
+YAROSLAV GROMA
