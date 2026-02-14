@@ -22,18 +22,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 
-    //////sign in button
+    //////sign in button SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE
+    ///// SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE SCAM HERE
+    //// SCAM HERE SCAM HERE SCAM HERE SCAM HERE
 
     const sig = document.getElementById('btn_sig');
 
-    sig.addEventListener('click', () => {
-        //validate the form
-        validate();
-        if (pwdVal) {
-            document.getElementById("section_pwd").classList.toggle('d-none');
-            document.getElementById('section_final').classList.remove('d-none');
-            view = "final";
-        }
+    sig.addEventListener('click', (e) => {
+        e.preventDefault(); 
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; 
     })
 
     function validate() {
