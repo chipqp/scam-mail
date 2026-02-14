@@ -102,4 +102,17 @@ document.addEventListener('DOMContentLoaded', () => {
             window.open(location, '_self').close();
         })
     })
+    unameInp.addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+            event.preventDefault(); 
+            document.getElementById("btn_next").click(); 
+        }
+    });
+
+    pwdInp.addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+            event.preventDefault(); 
+            document.getElementById("btn_sig").click(); 
+        }
+    });
 })
